@@ -1,0 +1,16 @@
+{
+    "links": {
+      "home": "Thuis",
+      "about": "Over",
+      "english": "Engels",
+      "dutch": "Nederlands"
+    },
+    "home": {
+      "title": "Welcom",
+      "introduction": "Dit is de introductie."
+    },
+    "about": {
+      "title": "Over",
+      "introduction": "Dit paginga is de 'Over' pagina, met meer informatie!"
+    }
+  }
