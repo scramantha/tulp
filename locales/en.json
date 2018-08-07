@@ -2,8 +2,11 @@
     "links": {
       "home": "Home",
       "about": "About",
-      "english": "English version",
-      "dutch": "Dutch version"
+      "services": "Services",
+      "bio": "Bio",
+      "info": "Info",
+      "english": "English",
+      "dutch": "Nederlands"
     },
     "home": {
       "title": "Welcome",
@@ -11,6 +14,6 @@
     },
     "about": {
       "title": "About",
-      "introduction": "This page is made to give you more informations."
+      "introduction": "This page is made to give you more information."
     }
   }

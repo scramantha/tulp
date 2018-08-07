@@ -10,7 +10,14 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/styles.css' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Cormorant+Garamond|Karla|Lato:900|Spectral+SC|Zilla+Slab' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Merriweather'}
+    ],
+    script: [
+      // This is my own fontawesome CDN code.
+      { src: 'https://use.fontawesome.com/8e3ba72382.js' }
     ]
   },
   /*

@@ -2,15 +2,20 @@
     "links": {
       "home": "Thuis",
       "about": "Over",
-      "english": "Engels",
+      "services": "ServicesNL",
+      "bio": "BioNL",
+      "info": "InfoNL",
+      "english": "English",
       "dutch": "Nederlands"
     },
     "home": {
-      "title": "Welcom",
-      "introduction": "Dit is de introductie."
+      "title": "Welcom"
     },
     "about": {
       "title": "Over",
       "introduction": "Dit paginga is de 'Over' pagina, met meer informatie!"
+    },
+    "services": {
+      "title": "Services Dutch"
     }
   }
