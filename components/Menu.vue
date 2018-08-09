@@ -1,17 +1,17 @@
 <template>
     <nav class="home-nav responsive-margin--medium">
-        <nuxt-link :class="homeNavClass" :to="$i18n.path('services')" exact>
+        <nuxt-link :class="homeNavClass" :to="localePath('services')" exact>
         {{ $t('links.services') }} <i class="fa fa-angle-right"></i>
         </nuxt-link>
-        <nuxt-link :class="homeNavClass" :to="$i18n.path('about')" exact>
+        <nuxt-link :class="homeNavClass" :to="localePath('about')" exact>
         {{ $t('links.about') }} <i class="fa fa-angle-right"></i>
         </nuxt-link>
-        <nuxt-link :class="homeNavClass" :to="$i18n.path('about')" exact>
+        <nuxt-link :class="homeNavClass" :to="localePath('bio')" exact>
         {{ $t('links.bio') }} <i class="fa fa-angle-right"></i>
         </nuxt-link>
-        <nuxt-link :class="homeNavClass" :to="$i18n.path('about')" exact>
+        <!-- <nuxt-link :class="homeNavClass" :to="localePath('about')" exact>
         {{ $t('links.info') }} <i class="fa fa-angle-right"></i>
-        </nuxt-link>
+        </nuxt-link> -->
     </nav>
 </template>
 

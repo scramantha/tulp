@@ -1,10 +1,10 @@
 <template>
     <div class="language-toggle font-xsmall">
-        <nuxt-link :class="$i18n.locale === 'nl' ? '' : 'text-bold' " :to="`/en` + $route.fullPath" active-class="none" exact>
+        <nuxt-link :class="$i18n.locale.code === 'nl' ? '' : 'text-bold' " :to="switchLocalePath('en')" active-class="none" exact>
         {{ $t('links.english') }}
         </nuxt-link>
          | 
-        <nuxt-link :class="$i18n.locale === 'en' ? '' : 'text-bold' " :to="$route.fullPath.replace(/^\/[^\/]+/, '')" active-class="none" exact>
+        <nuxt-link :class="$i18n.locale.code === 'en' ? '' : 'text-bold' " :to="switchLocalePath('nl')" active-class="none" exact>
         {{ $t('links.dutch') }}
         </nuxt-link>
     </div>

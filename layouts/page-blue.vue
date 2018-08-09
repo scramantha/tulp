@@ -2,7 +2,7 @@
     <div class="page this-page blue-purple-gradient-diagonal">
       <div class="above-the-fold">
         <nav class="top-menu responsive-padding">
-            <nuxt-link class="Header__Link font-small" :to="$i18n.path('')" exact>
+            <nuxt-link class="Header__Link font-small" :to="localePath('/')" exact>
                 {{ backArrow }} {{ $t('links.home') }}
             </nuxt-link>
             <LanguageToggle/>
