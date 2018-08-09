@@ -103,11 +103,6 @@ module.exports = {
       }
     }
   },
-  // i18n
-  router: {
-    middleware: 'i18n'
-  },
-  plugins: ['~/plugins/i18n.js'],
   generate: {
     routes: ['/', '/about', '/en', '/en/about']
   }
