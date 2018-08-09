@@ -1,4 +1,17 @@
+<template>
+  <div class="Content">
+    <div class="container">
+      <h1 class="Content__Title">Services</h1>
+      <p>{{ $t('about.introduction') }}</p>
+    </div>
+  </div>
+</template>
+
 <script>
-import Services from '~/pages/_lang/services'
-export default Services
+export default {
+  head() {
+    return { title: this.$t('about.title') }
+  },
+  layout: 'page-blue'
+}
 </script>
