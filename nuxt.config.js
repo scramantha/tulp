@@ -1,13 +1,16 @@
 module.exports = {
   modules: [
     ['nuxt-i18n', {
+      strategy: 'prefix_except_default',
       locales: [
         {
           code: 'en',
-          iso: 'en-US'
+          iso: 'en-US',
+          name: 'English'
         }, {
           code: 'nl',
-          iso: 'nl-NL'
+          iso: 'nl-NL',
+          name: 'Nederlands'
         }],
       defaultLocale: 'nl',
       seo: true,
@@ -50,13 +53,23 @@ module.exports = {
             },
             "about": {
               "title": "Over",
-              "introduction": "Dit paginga is de 'Over' pagina, met meer informatie!"
+              "introduction": "Dit paginga is de 'Over' pagina, met meer informatie!",
+              "amsterdam": "Reijns IP is een Amsterdams niche kantoor, gespecialiseerd in consulting en juridische dienstverlening op het gebied van IP. Denk bijvoorbeeld aan het begeleiden en vormgeven van samenwerkingen voor nieuwe producten of exploitatie van uitvindingen, maar ook aan het in goede banen leiden van conflicten en minimaliseren van hun impact.",
+              "relationships": "Reijns IP ondersteunt creatieve en innovatieve bedrijven, zodat zij zich kunnen richten op wat zij het beste doen. Hier is juridisch consulting geen showstopper, maar juist een steun waar cliënten dat nodig hebben. Goede afspraken leiden tot sterke relaties en daarbij kan Reijns IP helpen.",
+              "agreements": "En mocht er ergens een conflict ontstaan, dan moet dat niet de bedrijfsvoering of verdere ontwikkeling blokkeren. Samen bepalen wij dan de juiste strategie zodat u snel weer door kunt met wat voor u belangrijk is."
             },
             "services": {
               "title": "Services Dutch"
+            },
+            "bio": {
+              "title": "Bio",
+              "introduction": "Reijns-IP is Arjan Reijns."
             }
           }
         }
+      },
+      beforeLanguageSwitch: (oldOne, newOne) => {
+        console.log('BEFORE LANG SWITCH: ' + oldOne + ' -> ' + newOne);
       }
     }]
   ],
@@ -72,13 +85,16 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '/styles.css' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Cormorant+Garamond|Karla|Lato:900|Spectral+SC|Zilla+Slab' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Merriweather' }
+      { rel: 'stylesheet', href: '/main.css' },      
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600,700|Lato:400,700,900' }
     ],
     script: [
       // This is my own fontawesome CDN code.
-      { src: 'https://use.fontawesome.com/8e3ba72382.js' }
+      { src: 'https://use.fontawesome.com/8e3ba72382.js' },
+      //bootstrap
+      { src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js' },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js' },
+      { src: 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' }
     ]
   },
   /*

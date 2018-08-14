@@ -91,15 +91,19 @@ background: linear-gradient(135deg, rgba(19,126,245,1) 0%,rgba(19,126,245,1) 30%
 }
 
 
-.box {
+.box,
+.box--wide {
     max-width: 100%;
     width: 50%;
-    width: calc(300px + 20%);
+    width: calc(300px + 30%);
     margin: 0 auto;
     border-radius: 16px;
 }
 
-
+.box--wide {
+  width: 80%;
+  width: calc(500px + 30%);
+}
 
 .above-the-fold {
     min-height: 100vh;
@@ -180,11 +184,12 @@ background: linear-gradient(135deg, rgba(19,126,245,1) 0%,rgba(19,126,245,1) 30%
     color: #11171E;
     letter-spacing: 0.5px;
     font-size: 2.5vw;
-    font-size: calc(12px + 1vw);
-    font-family: "Merriweather", Times, serif;
-    line-height: calc(16px + 1vw);
+    font-size: calc(12px + .5vw);
+    font-family: 'Cormorant Garamond', serif;
+    line-height: calc(16px + .5vw);
     height: 100vh;
     margin: 0;
+    font-weight: 400;
   
     /* font-smooth: auto; */
     -moz-osx-font-smoothing: auto;
@@ -248,3 +253,78 @@ background: linear-gradient(135deg, rgba(19,126,245,1) 0%,rgba(19,126,245,1) 30%
  .bottom-menu {
    padding: 2vh 5vw;
  }
+
+
+ .rhs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  /* font-family: 'Karla', sans-serif; */
+  font-size: calc(48px + 4vw);
+  line-height: calc(52px + 5vw);
+  /* font-weight: 300; */
+  text-transform: uppercase;
+}
+
+h1 span {
+  display: block;
+}
+
+.body-big {
+  display: block;
+  font-size: 12px;
+  font-size: calc(12px + 1vw);
+  line-height: calc(16px + 1.1vw);
+}
+
+.home_container,
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+* + .flex_container {
+margin-top: 5vh;
+}
+
+.rhs,
+.rhs nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.rhs,
+.lhs {
+  width: 50%;
+  flex-grow: 1;
+  min-width: 200px;
+}
+
+.home_container .rhs,
+.home_container .lhs {
+  min-width: 400px;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.justified-center {
+  justify-content: center;
+}
+
+.services-container {
+  /* flex-wrap: nowrap; */
+}
+
+.service-blob {
+  flex-grow: 1;
+  min-width: 200px;
+  /* width: 33.33%; */
+}

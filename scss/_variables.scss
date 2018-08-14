@@ -1,0 +1,69 @@
+// COLORS
+
+$purple-0 :  #5C238B ;	/* Main Primary color */
+$purple-1 :  #19121E ;
+$purple-2 :  #402457 ;
+$purple-3 :  #741BBD ;
+$purple-4 :  #8e10f5 ;
+
+$red-0 :  #CB2830 ;	/* Main Secondary color (1) */
+$red-1 :  #2C191A ;
+$red-2 :  #7F2F33 ;
+$red-3 :  #FB1520 ;
+$red-4 :  #FE000D ;
+
+$blue-0 :  #235287 ;	/* Main Secondary color (2) */
+$blue-1 :  #11171E ;
+$blue-2 :  #243B54 ;
+$blue-3 :  #1D67B9 ;
+$blue-4 :  #137EF5 ;
+
+$yellow-0 :  #CFC829 ;	/* Main Complement color */
+$yellow-1 :  #2D2C19 ;
+$yellow-2 :  #817E30 ;
+$yellow-3 :  #FFF615 ;
+$yellow-4 :  #FFF500 ;
+
+// MAIN COLORS
+$main-purple: $purple-3;
+$main-red: $red-4;
+$main-blue: $blue-3;
+$main-yellow: $yellow-3;
+$main-black: $purple-2;
+
+
+// FONTS
+
+$font-family-serif: 'Cormorant Garamond', serif;
+$font-family-sans: 'Lato', sans-serif;
+
+// .font-serif {
+//     font-family: $font-family-serif;
+//     font-weight: 400;
+
+//     &.font-sb,
+//     .font-sb {
+//         font-weight: 600;
+//     }
+
+//     &.font-b,
+//     .font-b {
+//         font-weight: 700;
+//     }
+
+// }
+
+// .font-sans {
+//     font-family: $font-family-sans;
+//     font-weight: 400;
+
+//     &.font-sb,
+//     .font-sb {
+//         font-weight: 700;
+//     }
+
+//     &.font-b,
+//     .font-b {
+//         font-weight: 900;
+//     }   
+// }

@@ -1,33 +1,26 @@
 <template>
-    <div class="page purple-blue-gradient-diagonal">
-      <div class="above-the-fold">
-        <nav class="top-menu responsive-padding">
-            <nuxt-link class="Header__Link font-small" :to="localePath('/')" exact>
-                {{ backArrow }} {{ $t('links.home') }}
-            </nuxt-link>
-            <LanguageToggle/>
-        </nav>
-        <nuxt />
-      </div>
-      <WebsiteFooter/>
+<div class="purple-blue-gradient-diagonal">
+  <div class="above-the-fold">
+    <div>
+      <Menu/>
     </div>
+    <nuxt />
+  </div>
+  <div class="container-fluid">
+    <WebsiteFooter/>
+  </div>
+</div>
 </template>
   
 
 <script>
 import WebsiteFooter from "~/components/WebsiteFooter.vue";
-import LanguageToggle from "~/components/LanguageToggle.vue";
+import Menu from "~/components/Menu.vue";
 
 export default {
   components: {
     WebsiteFooter,
-    LanguageToggle
-  },
-  //todo prop to determine the title of the page and the next page to direct ppl to
-  props: {
-    bgColor: {
-      type: "String"
-    }
+    Menu
   },
   data() {
     return {
@@ -36,25 +29,3 @@ export default {
   }
 };
 </script>
-
-
-<style lang="css">
-.page {
-  color: black;
-}
-
-/* .top-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.bottom-menu {
-  display: flex;
-  justify-content: center;
-}
-
-.bottom-menu {
-  padding: 2vh 5vw;
-} */
-</style>

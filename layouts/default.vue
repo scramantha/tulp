@@ -21,23 +21,5 @@ export default {
     WebsiteFooter,
     LanguageToggle
   },
-  data() {
-    return {
-    backArrow: '<'
-  }
-}
 }
 </script>
-
-
-<style>
-  .home {
-    color: #11171E;
-  }
-  
-  .top-menu--home {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-  }
-</style>
