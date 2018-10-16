@@ -21,9 +21,6 @@ export default {
     };
   },
   computed: {
-    isHome: function(){
-      return false;
-    },
     offsetMdClass: function() {
       if(this.offsetMd == 0){
         return '';

@@ -17,28 +17,32 @@ module.exports = {
       vueI18n: {
         fallbackLocale: 'nl',
         messages: {
-          en: 
-            {
-              "links": {
-                "home": "Home",
-                "about": "About",
-                "services": "Services",
-                "bio": "Bio",
-                "info": "Info",
-                "english": "English",
-                "dutch": "Nederlands"
-              },
-              "home": {
-                "title": "Welcome",
-                "introduction": "This is an introduction in English."
-              },
-              "about": {
-                "title": "About",
-                "introduction": "This page is made to give you more information."
-              
-            }
+          en: {
+            "links": {
+              "home": "Home",
+              "about": "About",
+              "services": "Services",
+              "bio": "Bio",
+              "info": "Info",
+              "english": "English",
+              "dutch": "Nederlands"
+            },
+            "home": {
+              "title": "Welcome",
+              "introduction": "This is an introduction in English."
+            },
+            "about": {
+              "title": "About",
+              "introduction": "This page is made to give you more information.",
+            },
+            "services": {
+              "title": "Services"
+            },
+            "bio": {
+              "title": "Bio"
+            },
           },
-          nl:{
+          nl: {
             "links": {
               "home": "Thuis",
               "about": "Over",
@@ -69,7 +73,7 @@ module.exports = {
         }
       },
       beforeLanguageSwitch: (oldOne, newOne) => {
-        console.log('BEFORE LANG SWITCH: ' + oldOne + ' -> ' + newOne);
+        // console.log('BEFORE LANG SWITCH: ' + oldOne + ' -> ' + newOne);
       }
     }]
   ],

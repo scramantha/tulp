@@ -6,3 +6,20 @@
 .box {
   border-radius: 16px;
 }
+
+.vert-card {
+  border-radius: 16px;
+
+  @include media-breakpoint-up(lg){
+    border-radius: 0;
+
+    &--l {
+    border-radius:  16px 0 0 16px;
+    }
+
+
+    &--r {
+    border-radius: 0 16px 16px 0;
+    }
+  }
+}

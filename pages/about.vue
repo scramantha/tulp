@@ -2,7 +2,7 @@
   <div class="">
     <div class="container">
       <div class="responsive-padding-x text-center">
-        <h1 class="my-4 display-3 display-md-1">{{ $t('about.title') }}</h1>
+        <HeadingX :level="1">{{ $t('about.title') }}</HeadingX>
       </div>
       <div class="row py-4">
         <HorizontalCard :text="$t('about.amsterdam')" :offsetMd="0" />
@@ -22,13 +22,15 @@
 
 <script>
 import HorizontalCard from '~/components/HorizontalCard.vue'
+import HeadingX from '~/components/HeadingX.vue'
 
 export default {
   head() {
     return { title: this.$t("about.title") };
   },
   components:{
-    HorizontalCard
+    HorizontalCard,
+    HeadingX
   },
   layout: "page-purple"
 };
