@@ -1,25 +1,16 @@
 <template>
-  <div class="home blue-yellow-gradient-diagonal">
-    <div class="container">
-      <div class="above-the-fold">
-        <nav class="top-menu--home responsive-padding">
-            <LanguageToggle/>
-        </nav>
-        <nuxt/>
-      </div>
-      <WebsiteFooter/>
-    </div>
-  </div>
+<PageLayout class="blue-yellow-gradient-diagonal">
+  <nuxt/>
+</PageLayout>
 </template>
+  
 
 <script>
-import WebsiteFooter from '~/components/WebsiteFooter.vue'
-import LanguageToggle from '~/components/LanguageToggle.vue'
+import PageLayout from "~/components/PageLayout.vue";
 
 export default {
   components: {
-    WebsiteFooter,
-    LanguageToggle
-  },
-}
+    PageLayout
+  }
+};
 </script>

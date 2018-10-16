@@ -47,6 +47,16 @@
     color: white;  
 }
 
+.blue-yellow-gradient-diagonal {
+    background: linear-gradient(135deg, $blue-4 0%,rgba(19,126,245,1) 30%, $yellow-0 100%);
+    color: white;  
+}
+
+.red-blue-gradient-diagonal {
+    background: linear-gradient(135deg, $red-0 0%,$blue-4 30%, $blue-4 100%);
+    color: white;  
+}
+
 .white-bg {
     background-color: #fff;
     color: $main-black;

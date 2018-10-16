@@ -29,7 +29,7 @@ module.exports = {
             },
             "home": {
               "title": "Welcome",
-              "introduction": "This is an introduction in English."
+              "introduction": "See what Reijns-IP can do to help your growing and innovative business."
             },
             "about": {
               "title": "About",
@@ -53,7 +53,8 @@ module.exports = {
               "dutch": "Nederlands"
             },
             "home": {
-              "title": "Welcom"
+              "title": "Welcom",
+              "introduction": "Zie wat Reijns-IP kunt voor jou werk doen."
             },
             "about": {
               "title": "Over",

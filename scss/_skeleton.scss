@@ -1,25 +1,27 @@
+$border-radius-box: 8px;
+
 .above-the-fold {
     min-height: 100vh;
   }
 
   //todo replace with variable
 .box {
-  border-radius: 16px;
+  border-radius: $border-radius-box;
 }
 
 .vert-card {
-  border-radius: 16px;
+  border-radius: $border-radius-box;
 
   @include media-breakpoint-up(lg){
     border-radius: 0;
 
     &--l {
-    border-radius:  16px 0 0 16px;
+    border-radius:  $border-radius-box 0 0 $border-radius-box;
     }
 
 
     &--r {
-    border-radius: 0 16px 16px 0;
+    border-radius: 0 $border-radius-box $border-radius-box 0;
     }
   }
 }

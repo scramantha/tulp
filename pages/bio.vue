@@ -20,6 +20,6 @@ export default {
   components: {
     HeadingX
   },
-  layout: 'page-purple'
+  layout: 'page-red'
 }
 </script>

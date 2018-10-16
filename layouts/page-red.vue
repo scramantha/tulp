@@ -1,10 +1,9 @@
 <template>
-<PageLayout class="purple-blue-gradient-diagonal">
+<PageLayout class="red-blue-gradient-diagonal">
   <nuxt/>
 </PageLayout>
 </template>
   
-
 <script>
 import PageLayout from "~/components/PageLayout.vue";
 
