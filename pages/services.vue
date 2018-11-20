@@ -4,7 +4,7 @@
       <div class="responsive-padding-x text-center">
 
         <HeadingX :level="1">{{ $t('services.title') }}</HeadingX>
-        <p>{{ $t('about.introduction') }}</p>
+        <p>{{ $t('services.introduction') }}</p>
 
       </div>
 
@@ -12,9 +12,9 @@
         <div class="col-16">
           <div class="container-fluid">
             <div class="row">
-              <VerticalCard :text="$t('about.relationships')" cardType="left" />
-              <VerticalCard :text="$t('about.relationships')" />
-              <VerticalCard :text="$t('about.relationships')" cardType="right" />
+              <VerticalCard :title="$t('services.one.name')" :text="$t('services.one.description')" cardType="left" />
+              <VerticalCard :title="$t('services.two.name')" :text="$t('services.two.description')" />
+              <VerticalCard :title="$t('services.three.name')" :text="$t('services.three.description')" cardType="right" />
             </div>
           </div>
         </div>
@@ -35,6 +35,6 @@ export default {
     VerticalCard,
     HeadingX
   },
-  layout: 'page-purple'
+  layout: 'page-blue'
 }
 </script>

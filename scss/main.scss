@@ -42,8 +42,10 @@
 @import "skeleton";
 
 
-.purple-blue-gradient-diagonal {
+.purple-darkblue-gradient-diagonal {
     background: linear-gradient(135deg, rgb(142, 16, 245) 0%,rgb(142, 16, 245) 30%,rgba(19,126,245,1) 100%);
+    color: white;  
+    background: linear-gradient(135deg,  rgb(142, 16, 245) 0%, rgb(142, 16, 245) 30%, $blue-5 100%);
     color: white;  
 }
 
@@ -56,6 +58,17 @@
     background: linear-gradient(135deg, $red-0 0%,$blue-4 30%, $blue-4 100%);
     color: white;  
 }
+
+.blue-red-gradient-diagonal {
+    background: linear-gradient(135deg, $blue-4 0%,rgba(19,126,245,1) 30%, $red-0 100%);
+    color: white; 
+}
+
+.blue-darkblue-gradient-diagonal {
+    background: linear-gradient(135deg, $blue-4 0%,rgba(19,126,245,1) 30%, $blue-5 100%);
+    color: white; 
+}
+
 
 .white-bg {
     background-color: #fff;

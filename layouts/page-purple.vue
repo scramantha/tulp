@@ -1,5 +1,5 @@
 <template>
-<PageLayout class="purple-blue-gradient-diagonal">
+<PageLayout class="purple-darkblue-gradient-diagonal">
   <nuxt/>
 </PageLayout>
 </template>

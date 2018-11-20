@@ -1,14 +1,11 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-dark">
-  <a class="navbar-brand" href="#">Reijns-IP</a>
+  <nuxt-link class="navbar-brand" :to="localePath('index')" exact>Reijns-IP</nuxt-link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-        <nuxt-link :class="navLinkClass" :to="localePath('index')" exact>
-          {{ $t('links.home') }}
-        </nuxt-link>
         <nuxt-link :class="navLinkClass" :to="localePath('services')" exact>
           {{ $t('links.services') }}
         </nuxt-link>

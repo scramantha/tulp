@@ -23,7 +23,8 @@ module.exports = {
               "about": "About",
               "services": "Services",
               "bio": "Bio",
-              "info": "Info",
+              "contact": "Contact",
+
               "english": "English",
               "dutch": "Nederlands"
             },
@@ -32,11 +33,27 @@ module.exports = {
               "introduction": "See what Reijns-IP can do to help your growing and innovative business."
             },
             "about": {
-              "title": "About",
-              "introduction": "This page is made to give you more information.",
+              "title": "Over",
+              "introduction": "Dit paginga is de 'Over' pagina, met meer informatie!",
+              "amsterdam": "Reijns IP is an Amsterdam boutique firm, specialised in IP-consulting and -legal services. For example: setting up and providing counsel in joint product developments and licensing processes. Other examples would be providing support in cooperation agreements for monetizing inventions or minimising conflicts and/or their impact.",
+              "relationships": "Reijns IP supports creative and innovative companies so they can focus on what they do best. Here, legal consulting is not a show stopper, it is enabling support where needed. Solid agreements lead to strong relationships. And if a conflict does arise, it should not stop business as usual or hold up development. Together we will determine the appropriate strategy so you can get back to what you care about.",
+              "agreements": "Reijns IP supports creative and innovative companies so they can focus on what they do best. Here, legal consulting is not a show stopper, it is enabling support where needed. Solid agreements lead to strong relationships. And if a conflict does arise, it should not stop business as usual or hold up development. Together we will determine the appropriate strategy so you can get back to what you care about."
             },
             "services": {
-              "title": "Services"
+              "title": "Services",
+              "introduction": "The aspects of IP are many and varied. Every company relies and builds on its technology, trademarks and/or reputation. Trying to distinguish oneself and market demarcation are standard on the marketplace and a claim from a competitor does not have to mean real trouble. What is important, is someone with a good attention to detail and who enjoys digging through complexity and finding a creative solution.",
+              "one": {
+                "name": "Start-ups",
+                "description": "The early stages of a company are often uncertain and vulnerable. This only amplifies the need for a partner who not only knows whether or not a product – be it physical or digital – can be protected and how, but who also understands the manufacturing process and value chain; who has experience in getting to term sheets and R&amp;D cooperations."
+              },
+              "two": {
+                "name": "(Bio) Tech",
+                "description": "Innovative (bio) tech draws a lot of attention and incumbents are always keeping an eye out for new market entries and possible distruptions. A counsel who can draw up solid agreements with regard to know how and has experience with how incumbents try to corner new entrants can you save a lot of problems and expenses in the long run."
+              },
+              "three": {
+                "name": "Assistance",
+                "description": "Of course there are a thousand and one reasons for seeking legal advice. Justsend me an e-mail and if I don’t have the answers myself, I’m sure that I know someone who does and can help you along. Introductory meetings are always free."
+              }
             },
             "bio": {
               "title": "Bio"
@@ -46,9 +63,9 @@ module.exports = {
             "links": {
               "home": "Thuis",
               "about": "Over",
-              "services": "ServicesNL",
-              "bio": "BioNL",
-              "info": "InfoNL",
+              "services": "Diensten",
+              "bio": "Bio",
+              "info": "Info",
               "english": "English",
               "dutch": "Nederlands"
             },
@@ -64,7 +81,20 @@ module.exports = {
               "agreements": "En mocht er ergens een conflict ontstaan, dan moet dat niet de bedrijfsvoering of verdere ontwikkeling blokkeren. Samen bepalen wij dan de juiste strategie zodat u snel weer door kunt met wat voor u belangrijk is."
             },
             "services": {
-              "title": "Services Dutch"
+              "title": "Diensten",
+              "introduction": "IP heeft vele kanten en ieder bedrijf vertrouwt en bouwt voor een groot deel op zijn technologie, merken en/of handelsnaam. Afbakening is normaal en een brief van een concurrent die je wil aanspreken is echt niet altijd een probleem. Belangrijk is een goed oog voor de detail en iemand die het leuk vindt om in de complexiteit te duiken en samen creatieve oplossingen te verzinnen.",
+              "one": {
+                "name": "Start-ups",
+                "description": "De beginfase van een bedrijf is kwetsbaar. Daarom is het belangrijk om een partner te hebben die niet alleen weet of en hoe een product beschermd kan worden, maar die ook begrijpt hoe de productieketen in elkaar zit en (o.a. R&D-) samenwerkingen heeft opgezet."
+              },
+              "two": {
+                "name": "(Bio) Tech",
+                "description": "Innovatieve (bio)tech staat vol in de schijnwerpers en de gevestigde spelers houden nieuwe toetreders goed in de gaten. Een advocaat die de afspraken rond know-how kan dichttimmeren en heeft gezien hoe grote partijen toetreders proberen klem te zetten kan op de lange termijn veel geld en problemen besparen."
+              },
+              "three": {
+                "name": "Losse vragen",
+                "description": "Natuurlijk zijn er duizend en één redenen om juridisch advies in te winnen. Stuur gewoon een mailtje en als ik het niet weet, kan ik je vast de juiste richting wijzen. Oriënterende gesprekken zijn altijd gratis."
+              }
             },
             "bio": {
               "title": "Bio",

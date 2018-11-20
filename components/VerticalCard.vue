@@ -4,10 +4,11 @@
       <div class="row"> -->
         <!-- <div class="col-16 text-center"> -->
           icon here
+          <h2 v-if="title !== ''">{{ title }}</h2>
           <p>
             {{ text }}
           </p>
-          {{ cardType }}
+          <!-- {{ cardType }} -->
         <!-- </div> -->
       <!-- </div>
     </div> -->
@@ -41,6 +42,10 @@ export default {
     }
   },
   props: {
+    title: {
+      type: String,
+      default: ''
+    },
     text: {
       type: String,
       default: 'page'

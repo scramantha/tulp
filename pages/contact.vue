@@ -98,6 +98,6 @@ export default {
     HorizontalCard,
     HeadingX
   },
-  layout: "page-purple"
+  layout: "page-blue"
 };
 </script>
